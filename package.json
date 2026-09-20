@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kphuyal8979/chatMe/issues"
   },
-  "homepage": "https://github.com/kphuyal8979/chatMe#readme"
+  "homepage": "https://github.com/kphuyal8979/chatMe#readme",
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
 }
