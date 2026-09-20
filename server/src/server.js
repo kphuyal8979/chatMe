@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "../client/dist")));
 
   app.get("*", (req, res) => {
-    res.send(path.join(__dirname, "../client/dist/index.html"));
+    res.sendFile(path.join(__dirname, "../client/dist/index.html"));
   });
 }
 
